@@ -19,7 +19,7 @@ const Navigation = () => {
 
     return (
         <>
-        <nav className='py-2'>
+        <nav>
             <div className="container flex items-center justify-end gap-8">
                 <div className="col_1 w-[20%] ">
                     <Button className='!text-black gap-2 w-full' onClick={openCategoryPannel}>
@@ -34,7 +34,7 @@ const Navigation = () => {
                         <li className='list-none'>
                             <Link to="/" className="link transition text-[14px] font-[500]">
                             <Button className='link transition !font-[500] !text-[rgba(0,0,0,0.9)]
-                            hover:!text-[#ff5252]'>
+                            hover:!text-[#ff5252] !py-4'>
                             Home
                             </Button>
                             </Link>
@@ -43,7 +43,7 @@ const Navigation = () => {
                         <li className='list-none relative'>
                             <Link to="/" className="link transition text-[14px] font-[500]">
                             <Button className='link transition !font-[500] !text-[rgba(0,0,0,0.9)]
-                            hover:!text-[#ff5252]'>
+                            hover:!text-[#ff5252] !py-4'>
                             Fashion
                             </Button>
                             </Link>
@@ -145,7 +145,7 @@ const Navigation = () => {
                         <li className='list-none'>
                             <Link to="/" className="link transition text-[14px] font-[500]">
                             <Button className='link transition !font-[500] !text-[rgba(0,0,0,0.9)]
-                            hover:!text-[#ff5252]'>
+                            hover:!text-[#ff5252] !py-4'>
                             Electronics
                             </Button>
                             </Link>
@@ -154,7 +154,7 @@ const Navigation = () => {
                         <li className='list-none'>
                             <Link to="/" className="link transition text-[14px] font-[500]">
                             <Button className='link transition !font-[500] !text-[rgba(0,0,0,0.9)]
-                            hover:!text-[#ff5252]'>
+                            hover:!text-[#ff5252] !py-4'>
                             Bags
                             </Button>
                             </Link>
@@ -163,7 +163,7 @@ const Navigation = () => {
                         <li className='list-none'>
                             <Link to="/" className="link transition text-[14px] font-[500]">
                             <Button className='link transition !font-[500] !text-[rgba(0,0,0,0.9)]
-                            hover:!text-[#ff5252]'>
+                            hover:!text-[#ff5252] !py-4'>
                             Footwear
                             </Button>
                             </Link>
@@ -172,7 +172,7 @@ const Navigation = () => {
                         <li className='list-none'>
                             <Link to="/" className="link transition text-[14px] font-[500]">
                             <Button className='link transition !font-[500] !text-[rgba(0,0,0,0.9)]
-                            hover:!text-[#ff5252]'>
+                            hover:!text-[#ff5252] !py-4'>
                             Groceries
                             </Button>
                             </Link>
@@ -181,7 +181,7 @@ const Navigation = () => {
                         <li className='list-none'>
                             <Link to="/" className="link transition text-[14px] font-[500]">
                             <Button className='link transition !font-[500] !text-[rgba(0,0,0,0.9)]
-                            hover:!text-[#ff5252]'>
+                            hover:!text-[#ff5252] !py-4'>
                             Bueaty
                             </Button>
                             </Link>
@@ -190,7 +190,7 @@ const Navigation = () => {
                         <li className='list-none'>
                             <Link to="/" className="link transition text-[14px] font-[500]">
                             <Button className='link transition !font-[500] !text-[rgba(0,0,0,0.9)]
-                            hover:!text-[#ff5252]'>
+                            hover:!text-[#ff5252] !py-4'>
                             Wellness
                             </Button>
                             </Link>
@@ -199,7 +199,7 @@ const Navigation = () => {
                         <li className='list-none'>
                             <Link to="/" className="link transition text-[14px] font-[500]">
                             <Button className='link transition !font-[500] !text-[rgba(0,0,0,0.9)]
-                            hover:!text-[#ff5252]'>
+                            hover:!text-[#ff5252] !py-4'>
                             Jewellery
                             </Button>
                             </Link>

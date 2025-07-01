@@ -4,6 +4,7 @@
 
 .nav li .submenu {
     visibility: hidden;
+    z-index: 1000;
 }
 
 .nav li .submenu button{
@@ -15,17 +16,17 @@
     top: 100%;
 }
 
-.nav li .submenu li:hover button{ 
+.nav li .submenu li:hover button{
     color: #ff5252 !important;
 }
 
-.nav li .submenu li .submenu{ 
+.nav li .submenu li .submenu{
     top: 0 !important;
     left: 120% !important;
     opacity: 0 !important;
 }
 
-.nav li .submenu li:hover .submenu{ 
+.nav li .submenu li:hover .submenu{
     left: 100% !important;
     opacity: 1 !important;
 }
