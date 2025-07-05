@@ -21,6 +21,7 @@ const HomeSlider = () => {
                 modules={[Navigation, Autoplay]}
                 className="sliderHome"
                 spaceBetween={10}
+                loop={true}
                 autoplay={{ delay: 2500, disableOnInteraction: false }}
             >
                 <SwiperSlide>
