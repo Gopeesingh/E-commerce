@@ -8,11 +8,12 @@ import Button from '@mui/material/Button';
 import { FaRegHeart } from "react-icons/fa";
 import { IoGitCompareOutline } from "react-icons/io5";
 import { MdZoomOutMap } from "react-icons/md";
+import { MdOutlineShoppingCart } from 'react-icons/md';
 
-const ProductItem = () => {
+const ProductItemListView = () => {
     return(
-        <div className="productItem rounded-md shadow-lg overflow-hidden border-0 border-[rgba(0,0,0.1)]">
-            <div className="group imgWrapper w-[100%] h-[220px] overflow-hidden rounded-md relative">
+        <div className="productItem rounded-md shadow-lg overflow-hidden border-0 border-[rgba(0,0,0.1)] flex items-center">
+            <div className="group imgWrapper w-[25%] h-[220px] overflow-hidden rounded-md relative">
                 <Link to='/'>
                 <div className="img h-[220px] overflow-hidden">
                 <img src={proImg1} className='w-full' />
@@ -49,12 +50,13 @@ const ProductItem = () => {
                 </div>
             </div>
 
-            <div className="info p-3 py-5">
-                <h6 className='text-[13px] '><Link to='/' className='link transition-all'>kasee</Link>
+            <div className="info p-3 py-5 px-8 w-[75%]">
+                <h6 className='text-[18px] '><Link to='/' className='link transition-all'>kasee</Link>
                 </h6>
-                <h3 className='text-[13px] title mt-1 mb-1 font-[500] text-[#000]'>
+                <h3 className='text-[13px] title mt-3 mb-3 font-[500] text-[#000]'>
                     <Link to='/' className='link transition-all'>Embellished Embroidered Saree</Link>
                 </h3>
+                <p className='text-[14px] mb-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique iusto voluptatibus impedit odio cupiditate obcaecati voluptatem assumenda reiciendis aperiam, labore perferendis, minus alias asperiores consequatur dolores accusantium quae eaque necessitatibus?</p>
 
                 <Rating name="size-small" defaultValue={4} size="small" readOnly/>
 
@@ -62,10 +64,14 @@ const ProductItem = () => {
                     <span className='oldPrice line-through text-gray-500 text-[15px] font-[500]
                     '>$58.00</span>
                     <span className='price text-primary text-[15px] font-[600]'>$58.00</span>
+                    <div className="mt-3">
+                        <Button className='btn-org flex gap-2'><MdOutlineShoppingCart className='text-[20px]'/>Add to Cart</Button>
+                    </div>
+
                 </div>
             </div>
         </div>
     )
 }
 
-export default ProductItem;
+export default ProductItemListView;

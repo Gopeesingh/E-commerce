@@ -51,6 +51,9 @@ header .header {
     font-size: 16px;
     padding: 7px 20px !important;
 }
+.btn-org:hover{
+    background: #171717 !important;
+}
 
 .MuiBadge-badge {
     background-color: #ff5252 !important;
@@ -200,4 +203,22 @@ footer form input::placeholder{
 }
 .homeSliderV2 .info .btn_{
     transition-duration: 2.1s;
+}
+
+.MuiCheckbox-root{
+    padding: 6px !important;
+}
+
+.ReactCollapse--collapse {
+    transition: height 400ms;
+}
+
+.itemViewActions button.active svg {
+    color: #ff5252 !important;
+    opacity: 1;
+}
+
+.Mui-selected.MuiPaginationItem-page {
+background: #ff5252 !important;
+color: #fff !important;
 }
